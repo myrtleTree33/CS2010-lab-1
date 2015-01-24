@@ -1,0 +1,19 @@
+Test Harness - Lab 1
+====================================
+
+A0108165J TONG Haowen Joel
+
+- The test harness is automatd by Junit, deployed in maven.  To run,
+
+  maven test build
+  
+- test harness tests for cases where:
+  - Starting character is number.
+  - Starting character is symbol.
+  - Valid sequences, including a combination of underscores and alphanumeric 
+  characters.
+  
+- The algorithm is recursive from backward.  Meaning that in the terminal sequence,
+- the first character is tested second-last
+
+  
